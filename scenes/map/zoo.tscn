@@ -996,3 +996,313 @@ material/0 = null
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 46.5, 0, 0 )
 mesh = ExtResource( 6 )
 material/0 = null
+
+[node name="test_000_001" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 8 )
+mesh = ExtResource( 35 )
+material/0 = null
+
+[node name="test_000_010" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4 )
+mesh = ExtResource( 31 )
+material/0 = null
+
+[node name="test_000_011" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 12 )
+mesh = ExtResource( 58 )
+material/0 = null
+
+[node name="test_000_100" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2 )
+mesh = ExtResource( 46 )
+material/0 = null
+
+[node name="test_000_101" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 10 )
+mesh = ExtResource( 48 )
+material/0 = null
+
+[node name="test_000_110" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 6 )
+mesh = ExtResource( 38 )
+material/0 = null
+
+[node name="test_000_111" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 14 )
+mesh = ExtResource( 49 )
+material/0 = null
+
+[node name="test_001_000" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 0 )
+mesh = ExtResource( 33 )
+material/0 = null
+
+[node name="test_001_001" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 8 )
+mesh = ExtResource( 63 )
+material/0 = null
+
+[node name="test_001_010" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 4 )
+mesh = ExtResource( 39 )
+material/0 = null
+
+[node name="test_001_011" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 12 )
+mesh = ExtResource( 44 )
+material/0 = null
+
+[node name="test_001_100" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 2 )
+mesh = ExtResource( 40 )
+material/0 = null
+
+[node name="test_001_101" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 10 )
+mesh = ExtResource( 41 )
+material/0 = null
+
+[node name="test_001_110" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 6 )
+mesh = ExtResource( 43 )
+material/0 = null
+
+[node name="test_001_111" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 14 )
+mesh = ExtResource( 55 )
+material/0 = null
+
+[node name="test_010_000" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0 )
+mesh = ExtResource( 42 )
+material/0 = null
+
+[node name="test_010_001" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 8 )
+mesh = ExtResource( 32 )
+material/0 = null
+
+[node name="test_010_010" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 4 )
+mesh = ExtResource( 45 )
+material/0 = null
+
+[node name="test_010_011" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 12 )
+mesh = ExtResource( 59 )
+material/0 = null
+
+[node name="test_010_100" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 2 )
+mesh = ExtResource( 51 )
+material/0 = null
+
+[node name="test_010_101" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 10 )
+mesh = ExtResource( 47 )
+material/0 = null
+
+[node name="test_010_110" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 6 )
+mesh = ExtResource( 50 )
+material/0 = null
+
+[node name="test_010_111" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 14 )
+mesh = ExtResource( 52 )
+material/0 = null
+
+[node name="test_011_000" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 0 )
+mesh = ExtResource( 53 )
+material/0 = null
+
+[node name="test_011_001" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 8 )
+mesh = ExtResource( 54 )
+material/0 = null
+
+[node name="test_011_010" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 4 )
+mesh = ExtResource( 56 )
+material/0 = null
+
+[node name="test_011_011" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 12 )
+mesh = ExtResource( 36 )
+material/0 = null
+
+[node name="test_011_100" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 2 )
+mesh = ExtResource( 57 )
+material/0 = null
+
+[node name="test_011_101" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 10 )
+mesh = ExtResource( 60 )
+material/0 = null
+
+[node name="test_011_110" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 6 )
+mesh = ExtResource( 37 )
+material/0 = null
+
+[node name="test_011_111" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 14 )
+mesh = ExtResource( 61 )
+material/0 = null
+
+[node name="test_100_000" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 0 )
+mesh = ExtResource( 62 )
+material/0 = null
+
+[node name="test_100_001" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 8 )
+mesh = ExtResource( 30 )
+material/0 = null
+
+[node name="test_100_010" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 4 )
+mesh = ExtResource( 34 )
+material/0 = null
+
+[node name="test_100_011" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 12 )
+mesh = ExtResource( 26 )
+material/0 = null
+
+[node name="test_100_100" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 2 )
+mesh = ExtResource( 27 )
+material/0 = null
+
+[node name="test_100_101" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 10 )
+mesh = ExtResource( 29 )
+material/0 = null
+
+[node name="test_100_110" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 6 )
+mesh = ExtResource( 28 )
+material/0 = null
+
+[node name="test_100_111" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 14 )
+mesh = ExtResource( 14 )
+material/0 = null
+
+[node name="test_101_000" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, 0 )
+mesh = ExtResource( 15 )
+material/0 = null
+
+[node name="test_101_001" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, 8 )
+mesh = ExtResource( 16 )
+material/0 = null
+
+[node name="test_101_010" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, 4 )
+mesh = ExtResource( 13 )
+material/0 = null
+
+[node name="test_101_011" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, 12 )
+mesh = ExtResource( 21 )
+material/0 = null
+
+[node name="test_101_100" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, 2 )
+mesh = ExtResource( 19 )
+material/0 = null
+
+[node name="test_101_101" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, 10 )
+mesh = ExtResource( 2 )
+material/0 = null
+
+[node name="test_101_110" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, 6 )
+mesh = ExtResource( 8 )
+material/0 = null
+
+[node name="test_101_111" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, 14 )
+mesh = ExtResource( 23 )
+material/0 = null
+
+[node name="test_110_000" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 0 )
+mesh = ExtResource( 20 )
+material/0 = null
+
+[node name="test_110_001" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 8 )
+mesh = ExtResource( 9 )
+material/0 = null
+
+[node name="test_110_010" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 4 )
+mesh = ExtResource( 10 )
+material/0 = null
+
+[node name="test_110_011" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 12 )
+mesh = ExtResource( 7 )
+material/0 = null
+
+[node name="test_110_100" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 2 )
+mesh = ExtResource( 12 )
+material/0 = null
+
+[node name="test_110_101" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 10 )
+mesh = ExtResource( 17 )
+material/0 = null
+
+[node name="test_110_110" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 6 )
+mesh = ExtResource( 25 )
+material/0 = null
+
+[node name="test_110_111" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 14 )
+mesh = ExtResource( 3 )
+material/0 = null
+
+[node name="test_111_000" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, 0 )
+mesh = ExtResource( 22 )
+material/0 = null
+
+[node name="test_111_001" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, 8 )
+mesh = ExtResource( 24 )
+material/0 = null
+
+[node name="test_111_010" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, 4 )
+mesh = ExtResource( 5 )
+material/0 = null
+
+[node name="test_111_011" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, 12 )
+mesh = ExtResource( 18 )
+material/0 = null
+
+[node name="test_111_100" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, 2 )
+mesh = ExtResource( 4 )
+material/0 = null
+
+[node name="test_111_101" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, 10 )
+mesh = ExtResource( 11 )
+material/0 = null
+
+[node name="test_111_110" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, 6 )
+mesh = ExtResource( 6 )
+material/0 = null

@@ -36,25 +36,25 @@ func hex_to_tiles(x: int, y: int, z: int):
 	a.vertex_b_x = x + 1
 	a.vertex_b_z = z
 	a.vertex_c_x = x + odd 
-	a.vertex_c_z = z + 1
+	a.vertex_c_z = z - 1
 	
 	var b = Tile.new()	
 	b.translation = hc - Vector3(0.0, 0.0, 1.0)
 	b.hex_center = hc
-	b.translation.y -= 0.25
+	#b.translation.y -= 0.25
 	b.rotation.y = PI
 	b.tile_y = y
-	b.vertex_a_x = x + odd 
-	b.vertex_a_z = z + 1
+	b.vertex_a_x = x + odd
+	b.vertex_a_z = z - 1
 	b.vertex_b_x = x + odd - 1
-	b.vertex_b_z = z + 1 
+	b.vertex_b_z = z - 1 
 	b.vertex_c_x = x
 	b.vertex_c_z = z
 	
 	return [a, b]
 
 # populate a dictionary of tile keys to meshes
-func populate(tile_geo:Dictionary):
+func populate(tile_geo: Dictionary):
 	for a in [0,1]:
 		for b in [0,1]:
 			for c in [0,1]:

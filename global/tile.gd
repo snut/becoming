@@ -32,7 +32,6 @@ var debug_index : String = ""
 
 var tile_mesh : MeshInstance = null
 
-
 func assign_tile_index(solidity_map : Dictionary):
 	tile_index = 0
 	var xs = [vertex_a_x, vertex_b_x, vertex_c_x]
@@ -41,10 +40,10 @@ func assign_tile_index(solidity_map : Dictionary):
 	for bit in range(0,6):
 		var x = xs[bit%3]
 		var z = zs[bit%3]
-		var y = tile_y + int(bit/3)
+		var y = tile_y + bit/3
 		#print_debug("assign_tile_index", x, z, y)
 		var dflt = 0
-		#if y == 0: dflt = 1
+		if y == 0: dflt = 1
 		var b = solidity_map.get(Vector3(x,y,z), dflt)
 		assert(b == 1 || b == 0)
 		tile_index |= b << bit
@@ -69,14 +68,18 @@ func instantiate_geo(tile_to_geo : Dictionary):
 		return
 	var m = MeshInstance.new()
 	m.mesh = g
+	if rotation.y == 0:
+		m.material_override = load("res://materials/tile_default.tres")
+	else:
+		m.material_override = load("res://materials/tile_alt.tres")
 	tile_mesh = m
 	add_child(m)
 	
-	var dbg = MeshInstance.new()
-	dbg.mesh = SphereMesh.new()
-	dbg.scale = Vector3(0.1, 0.1, 0.1)
-	dbg.translation = transform.xform_inv(hex_center)
-	add_child(dbg)
+	#var dbg = MeshInstance.new()
+	#dbg.mesh = SphereMesh.new()
+	#dbg.scale = Vector3(0.1, 0.1, 0.1)
+	#dbg.translation = transform.xform_inv(hex_center)
+	#add_child(dbg)
 
 func _ready():
 	pass

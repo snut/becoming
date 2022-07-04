@@ -1,7 +1,13 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://scenes/map/proc_map.gd" type="Script" id=1]
 [ext_resource path="res://scenes/debug/free_camera.tscn" type="PackedScene" id=2]
+[ext_resource path="res://textures/common/mini_palette.png" type="Texture" id=3]
+[ext_resource path="res://geo/debug/axes.obj" type="ArrayMesh" id=4]
+[ext_resource path="res://geo/tiles/tile_100_000.obj" type="ArrayMesh" id=5]
+
+[sub_resource type="SpatialMaterial" id=1]
+albedo_texture = ExtResource( 3 )
 
 [node name="ProcMapRoot" type="Spatial"]
 script = ExtResource( 1 )
@@ -11,3 +17,14 @@ transform = Transform( -0.951643, -0.178038, 0.250357, 0, 0.814946, 0.579537, -0
 
 [node name="FreeCameraRoot" parent="." instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.21007, 9.02963 )
+
+[node name="MeshInstance" type="MeshInstance" parent="."]
+transform = Transform( 0.999915, 0.0130198, -5.69113e-10, 0, -4.37114e-08, -1, -0.0130198, 0.999915, -4.37077e-08, 0, 0, 0 )
+material_override = SubResource( 1 )
+mesh = ExtResource( 4 )
+material/0 = null
+
+[node name="MeshInstance2" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -2 )
+mesh = ExtResource( 5 )
+material/0 = null
